@@ -1,0 +1,16 @@
+<model-viewer src="lemonc.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-2" data-position="0.4837726467930906m 0.004130991996554799m 0.0033072081621306013m" data-normal="-0.7845724188142302m -0.6017475702622549m 0.14948572279472241m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">蒂頭</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.5035569405728597m 0.025032907822272084m 0.019560481448638055m" data-normal="-0.10012561449623883m 0.03237307855035955m 0.9944480102584161m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">果皮</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

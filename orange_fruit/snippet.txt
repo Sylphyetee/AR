@@ -1,0 +1,22 @@
+<model-viewer src="orange_fruitc.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.0013606004482252594m 3.699124413696365m 0.016430352308622626m" data-normal="0.0014900152466428174m 0.9924927730861098m 0.12229421583381789m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">汁囊</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.0010810225938475346m 3.70093426495378m 0.0015002150416680204m" data-normal="0.0004234398533157812m 0.9927005247963253m 0.12060467970933372m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">中芯柱</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.024704773057659352m 3.7001371654438224m 0.007286271509617075m" data-normal="0.04664417855890237m 0.9918959183942789m 0.11818124927134382m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">內果皮</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.02960080613066878m 3.7003095397523174m 0.0023324537799029182m" data-normal="0.23122577165108396m 0.9723477985072086m 0.0327780606892115m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">中果皮</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.030562604214348275m 3.6954338057182285m 0.009320943420131352m" data-normal="0.9440579755635367m 0.1771798815938987m 0.2781399437931367m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">外果皮</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
